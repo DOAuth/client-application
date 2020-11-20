@@ -1,4 +1,4 @@
-package com.example.oidc.client;
+package com.github.doauth.clientapplication;
 
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

@@ -1,4 +1,4 @@
-package com.example.oidc.client;
+package com.github.doauth.clientapplication;
 
 import org.springframework.http.MediaType;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -12,11 +12,11 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @RestController
 @RequestMapping("/")
-public class DemoRestController {
+public class ClientRestController {
 
   private final WebClient webClient;
 
-  public DemoRestController(WebClient webClient) {
+  public ClientRestController(WebClient webClient) {
     this.webClient = webClient;
   }
 

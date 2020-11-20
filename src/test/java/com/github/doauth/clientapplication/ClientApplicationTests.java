@@ -1,14 +1,12 @@
-package com.example.oidc.client;
+package com.github.doauth.clientapplication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
-import org.springframework.security.oauth2.jwt.JwtDecoder;
 
 @SpringBootTest
-class DemoOidcClientApplicationTests {
+class ClientApplicationTests {
 
   @SuppressWarnings("unused")
   @MockBean

@@ -1,4 +1,4 @@
-package com.example.oidc.client;
+package com.github.doauth.clientapplication;
 
 public class UserInfo {
 

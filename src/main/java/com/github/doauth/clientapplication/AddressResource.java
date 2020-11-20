@@ -1,4 +1,4 @@
-package com.example.oidc.client;
+package com.github.doauth.clientapplication;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
